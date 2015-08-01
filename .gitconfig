@@ -1,0 +1,27 @@
+[alias]
+  br = branch
+  cb = checkout -b
+  ci = ci-status
+  co = checkout
+  lg = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
+  nm = branch --no-merged
+  pr = pull-request
+  rb = rebase -i
+  ru = remote update
+  st = status -bs
+
+[color]
+  ui = true
+
+[merge]
+  tool = vimdiff
+
+[mergetool]
+  prompt = false
+
+[push]
+  default = upstream
+
+[user]
+  name = Andrew Langhorn
+  email = andrew.langhorn@digital.cabinet-office.gov.uk
